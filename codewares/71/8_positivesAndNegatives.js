@@ -5,9 +5,8 @@ function countPositivesSumNegatives(input) {
 
   if (input === null || input === undefined || input === []) return [];
 
-  for (let i = 0; i < input.length; i++) {
+  for (let i = 0; i < input.length; i++)
     input[i] > 0 ? (positivesCount += 1) : (negativesSumm += input[i]);
-  }
 
   summArray.push(positivesCount);
   summArray.push(negativesSumm);
