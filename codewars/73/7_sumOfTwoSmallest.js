@@ -1,3 +1,5 @@
+// link: https://www.codewars.com/kata/558fc85d8fd1938afb000014
+
 function sumTwoSmallestNumbers(numbers) {
   let summ = 0;
   for (let i = 0; i < 2; i++) {
