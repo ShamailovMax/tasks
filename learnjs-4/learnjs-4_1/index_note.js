@@ -5,10 +5,10 @@
 let user = new Object()
 
 // 2
-let user = {}
+let user1 = {}
 
 // мы можем добавить объекту ряд каких-либо свойств:
-let user = {
+let user2 = {
   userName: "Иван",
   city: "Тверь",
   age: 33,
@@ -16,9 +16,9 @@ let user = {
 
 // как нам обратиться к свойствам объекта и вывести на экран?
 // вот так:
-console.log(user.userName)                      // Иван
-console.log(user.age)                           // 33
-console.log(user.city)                          // Тверь
+console.log(user2.userName)                      // Иван
+console.log(user2.age)                           // 33
+console.log(user2.city)                          // Тверь
 
 // добавление нового свойства в объялвенный выше объект:
 user.hasWork = false
