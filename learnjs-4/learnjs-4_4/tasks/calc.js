@@ -2,18 +2,16 @@
 
 // 1 вариант - работает
 let calculator = {
-  int1: prompt("введи число 1:"),
-  int2: prompt("введи число 2:"),
-
   read() {
-
+    this.int1 = prompt("введи число 1:");
+    this.int2 = prompt("введи число 2:");
   },
   sum() {
-    return Number(this.int1) + Number(this.int2)
+    return Number(this.int1) + Number(this.int2);
   },
   mul() {
-    return Number(this.int1) * Number(this.int2)
-  }
+    return Number(this.int1) * Number(this.int2);
+  },
 };
 
 calculator.read();
