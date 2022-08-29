@@ -28,5 +28,3 @@ user2.f()     // Alexei
 user2['f']()  // Alexei
 
 // при вызове obj.f() значение this внутри f равно obj
-
-
